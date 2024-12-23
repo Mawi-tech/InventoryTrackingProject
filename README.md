@@ -1,2 +1,8 @@
 # InventoryTrackingProject
 Tracks inventory from a txt file and outputs frequency of each item. 
+This project tracks the inventory for a grocery store. It gives the user 4 different options.  When the user chooses an option, they can either enter the item they are searching for and the program would out put the frequency of the item. The 2nd option would print all of the items and the frequency of each item. The 3rd option prints the histogram version of the frequency of all the items. 
+I did particullay well is the overall logic of the program to ensure the user enters the proper information. 
+I could enhanct the code by possibly using more functions. For example, I could have made another function to open and read the file which would make less code for the main party of the program. 
+The challenging part, at first I didnt think I was going to struggle with is to make sure all the varaiablles had the correct type and pointers. I would keep running into errors that the variable couldnt get accesssed from different functions. I had overcame these obstaclesa by going in the text back, and using W3Schools.com 
+Some skills and from this project that couild be transferable to other projects is the ability to open, read, and write a file. That would be particullary useful because alot of programs would need multiple files, espically with increasing use of technology/computers. 
+I made this program maintainable, readable, and adaptable by making sure I used Object Oriented Programming such as making an object inventoryTracker to keep everything organized and makes it easier to make changes in the future. 
