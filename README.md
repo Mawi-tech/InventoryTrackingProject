@@ -1,8 +1,16 @@
 # InventoryTrackingProject
-Tracks inventory from a txt file and outputs frequency of each item. 
-This project tracks the inventory for a grocery store. It gives the user 4 different options.  When the user chooses an option, they can either enter the item they are searching for and the program would out put the frequency of the item. The 2nd option would print all of the items and the frequency of each item. The 3rd option prints the histogram version of the frequency of all the items. 
-I did particullay well is the overall logic of the program to ensure the user enters the proper information. 
-I could enhanct the code by possibly using more functions. For example, I could have made another function to open and read the file which would make less code for the main party of the program. 
-The challenging part, at first I didnt think I was going to struggle with is to make sure all the varaiablles had the correct type and pointers. I would keep running into errors that the variable couldnt get accesssed from different functions. I had overcame these obstaclesa by going in the text back, and using W3Schools.com 
-Some skills and from this project that couild be transferable to other projects is the ability to open, read, and write a file. That would be particullary useful because alot of programs would need multiple files, espically with increasing use of technology/computers. 
-I made this program maintainable, readable, and adaptable by making sure I used Object Oriented Programming such as making an object inventoryTracker to keep everything organized and makes it easier to make changes in the future. 
+
+## Overview
+This project tracks inventory for a grocery store by reading item data from a text file and giving the user four ways to view it: searching for a specific item's frequency, printing every item alongside its frequency, displaying a histogram of item frequencies, or exiting the program.
+
+## Approach
+I focused on making sure the program correctly validated user input and handled each of the four menu options reliably. The inventory data is organized using object-oriented programming, with an inventoryTracker object keeping the file's contents structured so the program stays easy to maintain and adapt as requirements change.
+
+## Reflection
+The most challenging part of this project was managing variable types and pointers across different functions, since data wasn't always accessible where I needed it. I resolved these issues by researching documentation, including W3Schools, and working through each error systematically. One way I could enhance the program further is by breaking out more of its logic into dedicated functions, such as a separate function purely for opening and reading the file, which would reduce repeated code in the main program. The skills I built here, particularly reading, writing, and opening files, are transferable to many other programs, especially as more software relies on handling multiple files at once.
+
+## Skills Demonstrated
+- File I/O and text parsing
+- Object-oriented programming
+- Variable scope and pointer management
+- Debugging and self-directed research
